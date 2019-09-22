@@ -1,0 +1,14 @@
+{
+    "name": "KMF Unlocker",
+    "version": "1.0",
+    "description": "Unlocks TOEFL mocks in toefl.kmf.com/mock",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://toefl.kmf.com/*"
+            ],
+            "js": ["jquery-3.4.1.min.js", "unlocker.js"]
+        }
+    ]
+}
